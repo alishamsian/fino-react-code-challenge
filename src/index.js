@@ -1,8 +1,20 @@
+/* 
+  Implement a button which makes a get request to https://reqres.in/ to get a list of users and display them.
+  100% free reign to accomplish this goal however you wish, within the context of react.
+
+  apiMethods.js file has already been stubbed out for you. Feel free to use it or not.
+
+  Bonus 1: Use MUI for implementation UI.
+
+  Bonus 2:  Add a button for each user to make a delete request to delete that user. 
+          Update the displayed users excluding the deleted user.
+
+  Bonus 3: Make a filter box to filter the displayed users by name.
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,8 +22,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
